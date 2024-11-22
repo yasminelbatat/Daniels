@@ -1,0 +1,236 @@
+@keyframes typing {
+    0% { /*Larry Daniels Developer Desiger*/
+        content: " |";
+    }
+    2% {
+        content: " D|";
+    }
+    4% {
+        content: " De|";
+    }
+    6% {
+        content: " Dev|";
+    }
+    8% {
+        content: " Deve|";
+    }
+    10% {
+        content: " Devel|";
+    }
+    12% {
+        content: " Develo|";
+    }
+    14% {
+        content: " Develop|";
+    }
+    16% {
+        content: " Develope|";
+    }
+    18% {
+        content: " Developer|";
+    }
+    20% {
+        content: " Develope|";
+    }
+    22% {
+        content: " Develop|";
+    }
+    24% {
+        content: " Develo|";
+    }
+    26% {
+        content: " Devel|";
+    }
+    28% {
+        content: " Deve|";
+    }
+    30% {
+        content: " Dev|";
+    }
+    32% {
+        content: " De|";
+    }
+    34% {
+        content: " D|";
+    }
+    36% {
+        content: " De|";
+    }
+    38% {
+        content: " Des|";
+    }
+    40% {
+        content: " Desi|";
+    }
+    42% {
+        content: " Desig|";
+    }
+    44% {
+        content: " Design|";
+    }
+    46% {
+        content: " Designe|";
+    }
+    48% {
+        content: " Designer|";
+    }
+    50% {
+        content: " Designer|";
+    }
+    52% {
+        content: " Designe|";
+    }
+    54% {
+        content: " Design|";
+    }
+    56% {
+        content: " Desig|";
+    }
+    58% {
+        content: " Desi|";
+    }
+    60% {
+        content: " Des|";
+    }
+    62% {
+        content: " De|";
+    }
+    64% {
+        content: " D|";
+    }
+    66% {
+        content: " L|";
+    }
+    68% {
+        content: " La|";
+    }
+    70% {
+        content: " Lar|";
+    }
+    72% {
+        content: " Larr|";
+    }
+    74% {
+        content: " Larry|";
+    }
+    76% {
+        content: " Larry D|";
+    }
+    78% {
+        content: " Larry Da|";
+    }
+    80% {
+        content: " Larry Dan|";
+    }
+    82% {
+        content: " Larry Dani|";
+    }
+    84% {
+        content: " Larry Danie|";
+    }
+    86% {
+        content: " Larry Daniel|";
+    }
+    87% {
+        content: " Larry Daniels|";
+    }
+    89% {
+        content: " Larry Daniel|";
+    }
+    90% {
+        content: " Larry Danie|";
+    }
+    92% {
+        content: " Larry Dani|";
+    }
+    93% {
+        content: " Larry Dan|";
+    }
+    94% {
+        content: " Larry Da|";
+    }
+    95% {
+        content: " Larry D|";
+    }
+    96% {
+        content: " Larr|";
+    }
+    97% {
+        content: " Lar|";
+    }
+    98% {
+        content: " La|";
+    }
+    99% {
+        content: " L|";
+    }
+    100% {
+        content: "|";
+    }
+}
+/* count animation */
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+#download1 {
+    animation: count1 4s forwards infinite;
+    counter-reset: num var(--num);
+}
+#download1::after {
+    content: counter(num);
+}
+@keyframes count1 {
+    from {
+    --num: 0;
+    }
+    to {
+    --num: 850;
+    }
+}
+#download2{
+    animation: count2 4s forwards infinite;
+    counter-reset: num var(--num);
+}
+#download2::after{
+    content: counter(num);
+}
+@keyframes count2{
+    from {
+        --num: 0;
+        }
+        to {
+        --num: 230;
+        }
+}
+#download3{
+    animation: count3 4s forwards infinite;
+    counter-reset: num var(--num);
+}
+#download3::after{
+    content: counter(num);
+}
+@keyframes count3{
+    from {
+        --num: 0;
+        }
+        to {
+        --num: 9450;
+        }
+}
+#download4{
+    animation: count4 4s forwards infinite;
+    counter-reset: num var(--num);
+}
+#download4::after{
+    content: counter(num);
+}
+@keyframes count4{
+    from {
+        --num: 0;
+        }
+        to {
+        --num: 780;
+        }
+}
